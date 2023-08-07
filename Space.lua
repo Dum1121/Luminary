@@ -13,7 +13,7 @@ Duration = Duration or 3; -- how long the notification should in secounds
 for _,v in pairs(Id) do
 	if v == 6284583030 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dum121/LuminaryExtra/main/PetSimulatorXBypass.lua",true))()
-Noti("Luminary Space\nPet Simulator X\nWaiting Bypass\nAnti Cheat\n","https://discord.gg/GJNn6TTX5K",5)
+Noti("Luminary Space\nPet Simulator X\n","Waiting Bypass\nAnti Cheat https://discord.gg/GJNn6TTX5K",5)
 wait(5)
 		Noti("Luminary Space\nPet Simulator X\n","Kaitun Diamond - Fruit - Mystery https://discord.gg/GJNn6TTX5K",math.huge)
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/Pet%20Simulator%20X.lua'))()
