@@ -12,7 +12,7 @@ Text = Text or "Welcome To Luminary Space Have Good Day With Luminary Script";
 Icon = Icon or logo; -- the image if u want. 
 Duration = Duration or 10; -- how long the notification should in secounds
 })end
-	if PlaceId == Id.PetXID1 then
+	if PlaceId == Id.PetXId1 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dum121/LuminaryExtra/main/PetSimulatorXBypass.lua",true))()
 Noti("Luminary Space\nPet Simulator X\n","Waiting Bypass\nAnti Cheat https://discord.gg/GJNn6TTX5K",5)
 wait(5)
