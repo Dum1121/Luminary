@@ -19,7 +19,7 @@ Noti("Luminary Space\nPet Simulator X\n","Waiting Bypass\nAnti Cheat https://dis
 wait(5)
 		Noti("Luminary Space\nPet Simulator X\n","Kaitun Diamond - Fruit - Mystery https://discord.gg/GJNn6TTX5K",math.huge)
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/Pet%20Simulator%20X.lua'))()
-	elseif v == PlaceId and getgenv().Luminary == "Luminary~Space" then
+	elseif v == PlaceId then
 		Noti()
 		wait(2)
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/One%20Piece%20Legendary.lua'))()
