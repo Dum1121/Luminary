@@ -6,9 +6,9 @@ local Name = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).
 function Noti(Title,Text,Duration,Icon)
 game.StarterGui:SetCore("SendNotification", {
 Title = Title or "Luminary Space"; -- the title (ofc)
-Text = Text or ""; 
+Text = Text or "Welcome To Luminary Space Have Good Day With Luminary Script"; 
 Icon = Icon or logo; -- the image if u want. 
-Duration = Duration or 3; -- how long the notification should in secounds
+Duration = Duration or 10; -- how long the notification should in secounds
 })end
 for _,v in pairs(Id) do
 	if v == 6284583030 then
@@ -17,5 +17,9 @@ Noti("Luminary Space\nPet Simulator X\n","Waiting Bypass\nAnti Cheat https://dis
 wait(5)
 		Noti("Luminary Space\nPet Simulator X\n","Kaitun Diamond - Fruit - Mystery https://discord.gg/GJNn6TTX5K",math.huge)
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/Pet%20Simulator%20X.lua'))()
+	elseif v == 3237168 and getgenv().Luminary == "Luminary~Space" then
+		Noti()
+		wait(2)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/One%20Piece%20Legendary.lua'))()
 	end
 end
