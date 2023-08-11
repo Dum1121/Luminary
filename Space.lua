@@ -17,9 +17,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dum121/LuminaryExtra/
 Noti("Luminary Space\nPet Simulator X\n","Waiting Bypass\nAnti Cheat https://discord.gg/GJNn6TTX5K",5)
 wait(5)
 		Noti("Luminary Space\nPet Simulator X\n","Kaitun Diamond - Fruit - Mystery https://discord.gg/GJNn6TTX5K",math.huge)
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/Pet%20Simulator%20X.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/File/Pet%20Simulator%20X.lua'))()
 	elseif PlaceId == Id.Opl then
 		Noti()
 		wait(2)
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/One%20Piece%20Legendary.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/File/One%20Piece%20Legendary.lua'))()
 	end
