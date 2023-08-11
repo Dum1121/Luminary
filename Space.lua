@@ -13,7 +13,7 @@ Icon = Icon or logo; -- the image if u want.
 Duration = Duration or 10; -- how long the notification should in secounds
 })end
 	if PlaceId == Id.PetXId1 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dum121/LuminaryExtra/main/PetSimulatorXBypass.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dum121/LuminaryExtra/main/Pet%20Simulator%20X%20Extra/PetSimulatorXBypass.lua",true))()
 Noti("Luminary Space\nPet Simulator X\n","Waiting Bypass\nAnti Cheat https://discord.gg/GJNn6TTX5K",5)
 wait(5)
 		Noti("Luminary Space\nPet Simulator X\n","Kaitun Diamond - Fruit - Mystery https://discord.gg/GJNn6TTX5K",math.huge)
