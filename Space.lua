@@ -10,6 +10,13 @@ Icon = Icon or logo; -- the image if u want.
 Duration = Duration or 15; -- how long the notification should in secounds
 })end
 
+for i, v in pairs(extra) do
+    if i == game.PlaceId then
+        Noti("Luminary Space","Waitting Bypass...",3,logo)
+        loadstring(game:HttpGet(v))()
+    end
+end
+wait(2)
 for i, v in pairs(getid) do
     if i == game.PlaceId then
         Noti()
