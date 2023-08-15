@@ -12,6 +12,7 @@ Duration = Duration or 15; -- how long the notification should in secounds
 
 for i, v in pairs(getid) do
     if i == game.PlaceId then
+        Noti()
         loadstring(game:HttpGet(v))()
     end
 end
