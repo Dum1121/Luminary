@@ -1,25 +1,19 @@
-local Id = {
-	PetXId1 = 6284583030,
-	Opl = 3237168,
-}
+repeat wait() until game:IsLoaded()
 local logo = "rbxassetid://14098292415"
-local PlaceId = game.PlaceId
-local Name = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+local queue_on_teleport = queue_on_teleport or syn and syn.queue_on_teleport 
+local scripts = loadstring(game:HttpGet("https://raw.githubusercontent.com/Dum121/Luminary/main/placeid.lua"))()
 function Noti(Title,Text,Duration,Icon)
 game.StarterGui:SetCore("SendNotification", {
 Title = Title or "Luminary Space"; -- the title (ofc)
-Text = Text or "Welcome To Luminary Space Have Good Day With Luminary Script"; 
+Text = Text or "Welcome To Luminary Space Have Good Day With Luminary Script https://discord.gg/GJNn6TTX5K"; 
 Icon = Icon or logo; -- the image if u want. 
-Duration = Duration or 10; -- how long the notification should in secounds
+Duration = Duration or 15; -- how long the notification should in secounds
 })end
-	if PlaceId == Id.PetXId1 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dum121/LuminaryExtra/main/Pet%20Simulator%20X%20Extra/PetSimulatorXBypass.lua",true))()
-Noti("Luminary Space\nPet Simulator X\n","Waiting Bypass\nAnti Cheat https://discord.gg/GJNn6TTX5K",2)
-wait(3)
-		Noti("Luminary Space\nPet Simulator X\n","Kaitun Diamond - Fruit - Mystery https://discord.gg/GJNn6TTX5K",math.huge)
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/File/Pet%20Simulator%20X.lua'))()
-	elseif PlaceId == Id.Opl then
-		Noti()
-		wait(2)
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/File/One%20Piece%20Legendary.lua'))()
-	end
+
+for i, v in pairs(getid) do
+    if i == game.PlaceId then
+        loadstring(game:HttpGet(v))()
+    end
+end
+queue_on_teleport[[repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Dum121/Luminary/main/Space.lua'))()]]
